@@ -39,73 +39,55 @@ document.addEventListener('DOMContentLoaded', function(event)
 <script>
 $(document).ready(function()
 {
-   $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
-   $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
-   $('#wb_FontAwesomeIcon28').addClass('visibility-hidden');
-   function onScrollFontAwesomeIcon3()
-   {
-      var $obj = $("#wb_FontAwesomeIcon3");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_FontAwesomeIcon3', 'transform-lightspeed-in', 100, 1000);
-      }
-   }
-   onScrollFontAwesomeIcon3();
-   $(window).scroll(function(event)
-   {
-      onScrollFontAwesomeIcon3();
-   });
-   function onScrollFontAwesomeIcon10()
-   {
-      var $obj = $("#wb_FontAwesomeIcon10");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_FontAwesomeIcon10', 'transform-lightspeed-in', 300, 1000);
-      }
-   }
-   onScrollFontAwesomeIcon10();
-   $(window).scroll(function(event)
-   {
-      onScrollFontAwesomeIcon10();
-   });
-   function onScrollFontAwesomeIcon28()
-   {
-      var $obj = $("#wb_FontAwesomeIcon28");
-      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
-      {
-         $obj.addClass("in-viewport");
-         AnimateCss('wb_FontAwesomeIcon28', 'transform-lightspeed-in', 700, 1000);
-      }
-   }
-   onScrollFontAwesomeIcon28();
-   $(window).scroll(function(event)
-   {
-      onScrollFontAwesomeIcon28();
-   });
+   $('#FontAwesomeIcon28').addClass('visibility-hidden');
+   $('#FontAwesomeIcon28').addClass('visibility-hidden');
    $("a[href*='#header']").click(function(event)
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeInSine');
+   });
+   function onScrollIcon3()
+   {
+      var $obj = $("#wb_Icon3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('FontAwesomeIcon28', 'transform-lightspeed-in', 700, 1000);
+      }
+   }
+   onScrollIcon3();
+   $(window).scroll(function(event)
+   {
+      onScrollIcon3();
+   });
+   function onScrollIcon4()
+   {
+      var $obj = $("#wb_Icon4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('FontAwesomeIcon28', 'transform-lightspeed-in', 700, 1000);
+      }
+   }
+   onScrollIcon4();
+   $(window).scroll(function(event)
+   {
+      onScrollIcon4();
    });
 });
 </script>
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb18.png" alt="WYSIWYG Web Builder" style="position:absolute;left:455px;top:1483px;margin: 0;border-width:0;z-index:250" width="88" height="31"></a>
-<div id="wb_LayoutGrid8">
-<div id="LayoutGrid8">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
-<div id="wb_FontAwesomeIcon3" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:0;">
-<a href="https://www.facebook.com/mohamed.wahbi.99" target="_blank" title="My Facebook"><div id="FontAwesomeIcon3"><i class="fa fa-facebook"></i></div></a>
+<div id="wb_Icon3" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:0;">
+<a href="https://www.linkedin.com/in/mohamedwahbi" target="_blank" title="LinkedIn Profile"><div id="Icon3"><i class="fa fa-linkedin"></i></div></a>
 </div>
-<div id="wb_FontAwesomeIcon10" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:1;">
-<a href="https://www.instagram.com/wahbimo2" target="_blank" title="My Instagram"><div id="FontAwesomeIcon10"><i class="fa fa-instagram"></i></div></a>
-</div>
-<div id="wb_FontAwesomeIcon28" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:2;">
-<a href="https://www.linkedin.com/in/mohamedwahbi" target="_blank" title="LinkedIn Profile"><div id="FontAwesomeIcon28"><i class="fa fa-linkedin"></i></div></a>
+<div id="wb_Icon4" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:1;">
+<a href="https://github.com/wahbimo" target="_blank" title="My git"><div id="Icon4"><i class="fa fa-git"></i></div></a>
 </div>
 </div>
 </div>
@@ -115,16 +97,16 @@ $(document).ready(function()
 <div id="header">
 <div class="row">
 <div class="col-1">
-<div id="wb_headerIcon1" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:3;">
+<div id="wb_headerIcon1" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:2;">
 <a href="tel: +33659429284" title="My phone number"><div id="headerIcon1"><i class="fa fa-phone"></i></div></a>
 </div>
-<label for="" id="headerLabel1" style="display:inline-block;width:210px;line-height:16px;z-index:4;">Phone: +33 6 59 42 92 84</label>
+<label for="" id="headerLabel1" style="display:inline-block;width:210px;line-height:16px;z-index:3;">Phone: +33 6 59 42 92 84</label>
 </div>
 <div class="col-2">
-<div id="wb_headerIcon2" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:5;">
+<div id="wb_headerIcon2" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:4;">
 <a href="mailto:mohamed.wahbi@protonmail.com" title="My e-mail"><div id="headerIcon2"><i class="fa fa-envelope-o"></i></div></a>
 </div>
-<label for="" id="headerLabel2" style="display:inline-block;width:287px;line-height:16px;z-index:6;" title="My e-mail">Email: mohamed.wahbi@protonmail.com</label>
+<label for="" id="headerLabel2" style="display:inline-block;width:287px;line-height:16px;z-index:5;" title="My e-mail">Email: mohamed.wahbi@protonmail.com</label>
 </div>
 </div>
 </div>
@@ -133,12 +115,12 @@ $(document).ready(function()
 <div id="navigation">
 <div class="row">
 <div class="col-1">
-<div id="wb_navigationHeading" style="display:inline-block;width:100%;z-index:7;">
+<div id="wb_navigationHeading" style="display:inline-block;width:100%;z-index:6;">
 <h1 id="navigationHeading">Mohamed WAHBI</h1>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_navigationMenu" style="display:inline-block;width:100%;z-index:8;">
+<div id="wb_navigationMenu" style="display:inline-block;width:100%;z-index:7;">
 <div id="navigationMenu" class="navigationMenu" style="width:100%;height:auto !important;">
 <div class="container">
 <div class="navbar-header">
@@ -178,7 +160,7 @@ $(document).ready(function()
 <div id="CarouselGallery">
 <div class="row">
 <div class="col-1">
-<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:9;">
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:8;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -318,8 +300,8 @@ $(document).ready(function()
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Heading2" style="display:inline-block;width:100%;z-index:10;">
-<h1 id="Heading2">Photo Gallery</h1>
+<div id="wb_Heading2" style="display:inline-block;width:100%;z-index:9;">
+<h1 id="Heading2">Random pictures</h1>
 </div>
 <div id="wb_Carousel1" style="">
 <div id="Carousel1" class="carousel slide">

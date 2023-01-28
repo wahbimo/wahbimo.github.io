@@ -41,6 +41,8 @@ $(document).ready(function()
    $('#wb_FontAwesomeIcon3').addClass('visibility-hidden');
    $('#wb_FontAwesomeIcon10').addClass('visibility-hidden');
    $('#wb_FontAwesomeIcon28').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon11').addClass('visibility-hidden');
+   $('#wb_FontAwesomeIcon28').addClass('visibility-hidden');
    function onScrollFontAwesomeIcon3()
    {
       var $obj = $("#wb_FontAwesomeIcon3");
@@ -88,6 +90,34 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeInSine');
    });
+   function onScrollFontAwesomeIcon11()
+   {
+      var $obj = $("#wb_FontAwesomeIcon11");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon11', 'transform-lightspeed-in', 400, 1000);
+      }
+   }
+   onScrollFontAwesomeIcon11();
+   $(window).scroll(function(event)
+   {
+      onScrollFontAwesomeIcon11();
+   });
+   function onScrollIcon1()
+   {
+      var $obj = $("#wb_Icon1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_FontAwesomeIcon28', 'transform-lightspeed-in', 700, 1000);
+      }
+   }
+   onScrollIcon1();
+   $(window).scroll(function(event)
+   {
+      onScrollIcon1();
+   });
 });
 </script>
 </head>
@@ -106,6 +136,12 @@ $(document).ready(function()
 <div id="wb_FontAwesomeIcon28" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:2;">
 <a href="https://www.linkedin.com/in/mohamedwahbi" target="_blank" title="LinkedIn Profile"><div id="FontAwesomeIcon28"><i class="fa fa-linkedin"></i></div></a>
 </div>
+<div id="wb_Icon1" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:3;">
+<a href="https://github.com/wahbimo" target="_blank" title="My git"><div id="Icon1"><i class="fa fa-git"></i></div></a>
+</div>
+<div id="wb_FontAwesomeIcon11" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:4;">
+<a href="https://m.youtube.com/@mohamedwahbi6895/" target="_blank"><div id="FontAwesomeIcon11"><i class="fa fa-youtube"></i></div></a>
+</div>
 </div>
 </div>
 </div>
@@ -114,16 +150,16 @@ $(document).ready(function()
 <div id="header">
 <div class="row">
 <div class="col-1">
-<div id="wb_headerIcon1" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:3;">
+<div id="wb_headerIcon1" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:5;">
 <a href="tel: +33659429284" title="My phone number"><div id="headerIcon1"><i class="fa fa-phone"></i></div></a>
 </div>
-<label for="" id="headerLabel1" style="display:inline-block;width:210px;line-height:16px;z-index:4;">Phone: +33 6 59 42 92 84</label>
+<label for="" id="headerLabel1" style="display:inline-block;width:210px;line-height:16px;z-index:6;">Phone: +33 6 59 42 92 84</label>
 </div>
 <div class="col-2">
-<div id="wb_headerIcon2" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:5;">
+<div id="wb_headerIcon2" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:7;">
 <a href="mailto:mohamed.wahbi@protonmail.com" title="My e-mail"><div id="headerIcon2"><i class="fa fa-envelope-o"></i></div></a>
 </div>
-<label for="" id="headerLabel2" style="display:inline-block;width:287px;line-height:16px;z-index:6;" title="My e-mail">Email: mohamed.wahbi@protonmail.com</label>
+<label for="" id="headerLabel2" style="display:inline-block;width:287px;line-height:16px;z-index:8;" title="My e-mail">Email: mohamed.wahbi@protonmail.com</label>
 </div>
 </div>
 </div>
@@ -132,12 +168,12 @@ $(document).ready(function()
 <div id="navigation">
 <div class="row">
 <div class="col-1">
-<div id="wb_navigationHeading" style="display:inline-block;width:100%;z-index:7;">
+<div id="wb_navigationHeading" style="display:inline-block;width:100%;z-index:9;">
 <h1 id="navigationHeading">Mohamed WAHBI</h1>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_navigationMenu" style="display:inline-block;width:100%;z-index:8;">
+<div id="wb_navigationMenu" style="display:inline-block;width:100%;z-index:10;">
 <div id="navigationMenu" class="navigationMenu" style="width:100%;height:auto !important;">
 <div class="container">
 <div class="navbar-header">
@@ -168,6 +204,37 @@ $(document).ready(function()
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_ThreeColumns">
+<div id="ThreeColumns-overlay"></div>
+<div id="ThreeColumns">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:11;">
+<h1 id="Heading1">Address</h1>
+</div>
+<div id="wb_Text1">
+<span style="color:#34495E;font-family:Arial;font-size:17px;">Mohamed WAHBI<br>655 avenue du technopôle<br>IMT Atlantique<br>29280 Plouzané</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Heading2" style="display:inline-block;width:100%;z-index:13;">
+<h1 id="Heading2">Public key</h1>
+</div>
+<div id="wb_Text2">
+<span style="color:#34495E;font-family:Arial;font-size:17px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. </span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Heading3" style="display:inline-block;width:100%;z-index:15;">
+<h1 id="Heading3">Column Three</h1>
+</div>
+<div id="wb_Text3">
+<span style="color:#34495E;font-family:Arial;font-size:17px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. </span>
 </div>
 </div>
 </div>
