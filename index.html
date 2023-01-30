@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home - WAHBI</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="github_wb.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery.ui.effect.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event)
+{
+   var navigationMenu_dropdownToggle = document.querySelectorAll('#navigationMenu .dropdown-toggle');
+   navigationMenu_dropdownToggle.forEach(item => 
+   {
+      var dropdown = new bootstrap.Dropdown(item, {popperConfig:{placement:item.getAttribute('data-bs-placement')}});
+   });
+   var navigationMenu_dropdown = document.querySelectorAll('#navigationMenu .dropdown');
+   navigationMenu_dropdown.forEach(item => 
+   {
+      item.addEventListener('shown.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.add('show');
+      });
+      item.addEventListener('hidden.bs.dropdown', function(e)
+      {
+         e.currentTarget.classList.remove('show');
+      });
+   });
+});
+</script>
+<script>
+$(document).ready(function()
+{
+   $('#FontAwesomeIcon28').addClass('visibility-hidden');
+   $('#FontAwesomeIcon28').addClass('visibility-hidden');
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeInSine');
+   });
+   function onScrollIcon3()
+   {
+      var $obj = $("#wb_Icon3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('FontAwesomeIcon28', 'transform-lightspeed-in', 700, 1000);
+      }
+   }
+   onScrollIcon3();
+   $(window).scroll(function(event)
+   {
+      onScrollIcon3();
+   });
+   function onScrollIcon4()
+   {
+      var $obj = $("#wb_Icon4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('FontAwesomeIcon28', 'transform-lightspeed-in', 700, 1000);
+      }
+   }
+   onScrollIcon4();
+   $(window).scroll(function(event)
+   {
+      onScrollIcon4();
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb18.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:565px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Icon3" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:0;">
+<a href="https://www.linkedin.com/in/mohamedwahbi" target="_blank" title="LinkedIn Profile"><div id="Icon3"><i class="fa fa-linkedin"></i></div></a>
+</div>
+<div id="wb_Icon4" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:1;">
+<a href="https://github.com/wahbimo" target="_blank" title="My git"><div id="Icon4"><i class="fa fa-git"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerIcon1" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:2;">
+<a href="tel: +33659429284" title="My phone number"><div id="headerIcon1"><i class="fa fa-phone"></i></div></a>
+</div>
+<label for="" id="headerLabel1" style="display:inline-block;width:210px;line-height:16px;z-index:3;">Phone: +33 6 59 42 92 84</label>
+</div>
+<div class="col-2">
+<div id="wb_headerIcon2" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:4;">
+<a href="mailto:mohamed.wahbi@protonmail.com" title="My e-mail"><div id="headerIcon2"><i class="fa fa-envelope-o"></i></div></a>
+</div>
+<label for="" id="headerLabel2" style="display:inline-block;width:287px;line-height:16px;z-index:5;" title="My e-mail">Email: mohamed.wahbi@protonmail.com</label>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_navigation">
+<div id="navigation">
+<div class="row">
+<div class="col-1">
+<div id="wb_navigationHeading" style="display:inline-block;width:100%;z-index:6;">
+<h1 id="navigationHeading">Mohamed WAHBI</h1>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_navigationMenu" style="display:inline-block;width:100%;z-index:7;">
+<div id="navigationMenu" class="navigationMenu" style ="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button title="" type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navigationMenu-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="navigationMenu-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="./index.html" class="nav-link">HOME</a>
+</li>
+<li class="nav-item">
+<a href="./resume.html" title="My C.V." class="nav-link">RESUME</a>
+</li>
+<li class="nav-item">
+<a href="./pictures.html" title="My gallery" class="nav-link">PICTURES</a>
+</li>
+<li class="nav-item">
+<a href="./blog.html" class="nav-link">BLOG</a>
+</li>
+<li class="nav-item">
+<a href="./contact.html" class="nav-link">CONTACT</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Image2" style="display:inline-block;width:100%;height:auto;z-index:8;">
+<img src="images/pic_fr.png" id="Image2" alt="" title="Personal picture" width="212" height="215">
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text2">
+<span style="color:#969696;">Hello, my name is Mohamed. I am a graduate in fundamental physics from the University of Paris-Saclay, with a solid education in mathematics, physics, and chemistry. Holding a scientific high school degree from the Royal Preparatory College for Aeronautical Techniques in Marrakech (Morocco) and having professional experience in fundamental physics research, I have honed my skills in using theoretical and experimental physics to solve complex problems. I have experience in programming, specifically utilizing object oriented programming concepts to create efficient software and utilizing development tools to optimize performance. I am passionate about learning cybersecurity to protect systems against threats. My goal is to work in international relations, with a particular focus on international security and energy. That's why I chose a generalist education that allows me to combine my interests and skills to contribute to current global challenges.</span>
+</div>
+<div id="wb_Shape1" style="display:inline-block;width:102px;height:44px;z-index:10;position:relative;">
+<a href="./resume.html"><img src="images/img0001.png" id="Shape1" alt="" width="102" height="44" style="width:102px;height:44px;"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
