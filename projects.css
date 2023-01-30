@@ -1234,18 +1234,18 @@ body
    vertical-align: middle;
    color: #000000;
    font-family: Arial;
-   line-height: 20px;
+   line-height: 18px;
 }
 #StripedTable .cell2
 {
    background-color: transparent;
    background-image: none;
    border: 1px #000000 solid;
-   text-align: left;
+   text-align: center;
    vertical-align: middle;
    color: #000000;
    font-family: Arial;
-   line-height: 20px;
+   line-height: 18px;
 }
 #StripedTable .cell3
 {
@@ -1256,5 +1256,258 @@ body
    vertical-align: middle;
    color: #000000;
    font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell9
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell10
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell11
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell13
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell14
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell15
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell16
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell17
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell18
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
    line-height: 16px;
+}
+#StripedTable .cell19
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell20
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell21
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 16px;
+}
+#StripedTable .cell22
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell23
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell24
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 16px;
+}
+#StripedTable .cell25
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: center;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
+}
+#StripedTable .cell26
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 20px;
 }

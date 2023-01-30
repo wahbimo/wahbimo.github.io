@@ -1180,6 +1180,182 @@ body
 {
    background-color: transparent;
    background-image: none;
+   border-top-width: 1px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell7
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell8
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   color: #000000;
+   font-family: Arial;
+   line-height: 18px;
+}
+#StripedTable .cell9
+{
+   background-color: transparent;
+   background-image: none;
    border-top-width: 0px;
    border-right-width: 0px;
    border-bottom-width: 1px;
